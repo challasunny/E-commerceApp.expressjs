@@ -1,0 +1,182 @@
+[
+  {
+    "id": "PH001",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "type": "Flagship Smartphone",
+    "release_date": "2024-01-17",
+    "specifications": {
+      "display": {"type": "Dynamic AMOLED 2X", "size_inches": 6.8, "resolution": "3120 x 1440", "refresh_rate_hz": 120},
+      "processor": {"name": "Snapdragon 8 Gen 3 (for Galaxy)", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": 12, "storage_gb": [256, 512, 1024]},
+      "camera_rear_mp": [200, 12, 10, 50],
+      "camera_front_mp": 12,
+      "battery_mah": 5000,
+      "os": "Android 14 (One UI 6.1)",
+      "special_features": ["S Pen", "Titanium Frame", "AI Features", "IP68"]
+    },
+    "price_usd_starting": 1299
+  },
+  {
+    "id": "PH002",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "type": "Flagship Smartphone",
+    "release_date": "2023-09-22",
+    "specifications": {
+      "display": {"type": "Super Retina XDR OLED", "size_inches": 6.7, "resolution": "2796 x 1290", "refresh_rate_hz": 120},
+      "processor": {"name": "A17 Pro Bionic", "cores": "Hexa-core"},
+      "memory_storage": {"ram_gb": 8, "storage_gb": [256, 512, 1024]},
+      "camera_rear_mp": [48, 12, 12],
+      "camera_front_mp": 12,
+      "battery_mah": 4441,
+      "os": "iOS 17",
+      "special_features": ["Dynamic Island", "Action Button", "Titanium Frame", "Face ID"]
+    },
+    "price_usd_starting": 1199
+  },
+  {
+    "id": "PH003",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "type": "AI-centric Smartphone",
+    "release_date": "2023-10-04",
+    "specifications": {
+      "display": {"type": "Actua Display (OLED)", "size_inches": 6.7, "resolution": "1344 x 2992", "refresh_rate_hz": 120},
+      "processor": {"name": "Google Tensor G3", "cores": "Nona-core"},
+      "memory_storage": {"ram_gb": 12, "storage_gb": [128, 256, 512, 1024]},
+      "camera_rear_mp": [50, 48, 48],
+      "camera_front_mp": 10.5,
+      "battery_mah": 5050,
+      "os": "Android 14 (Stock Android)",
+      "special_features": ["Advanced AI features (Magic Editor, Best Take)", "7 years of updates", "Temperature Sensor"]
+    },
+    "price_usd_starting": 999
+  },
+  {
+    "id": "PH004",
+    "brand": "OnePlus",
+    "model": "OnePlus 12",
+    "type": "Performance Flagship",
+    "release_date": "2024-01-23",
+    "specifications": {
+      "display": {"type": "AMOLED", "size_inches": 6.82, "resolution": "3168 x 1440", "refresh_rate_hz": 120},
+      "processor": {"name": "Snapdragon 8 Gen 3", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": [12, 16, 24], "storage_gb": [256, 512, 1024]},
+      "camera_rear_mp": [50, 48, 64],
+      "camera_front_mp": 32,
+      "battery_mah": 5400,
+      "os": "Android 14 (OxygenOS 14)",
+      "special_features": ["100W SUPERVOOC Charging", "Hasselblad Camera", "Alert Slider"]
+    },
+    "price_usd_starting": 799
+  },
+  {
+    "id": "PH005",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14 Ultra",
+    "type": "Photography Flagship",
+    "release_date": "2024-02-22",
+    "specifications": {
+      "display": {"type": "AMOLED", "size_inches": 6.73, "resolution": "3200 x 1440", "refresh_rate_hz": 120},
+      "processor": {"name": "Snapdragon 8 Gen 3", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": [12, 16], "storage_gb": [256, 512, 1024]},
+      "camera_rear_mp": [50, 50, 50, 50],
+      "camera_front_mp": 32,
+      "battery_mah": 5300,
+      "os": "Android 14 (HyperOS)",
+      "special_features": ["Leica Optics", "Variable Aperture Main Camera", "Titanium Frame"]
+    },
+    "price_usd_starting": 1099
+  },
+  {
+    "id": "PH006",
+    "brand": "Asus",
+    "model": "ROG Phone 8 Pro",
+    "type": "Gaming Smartphone",
+    "release_date": "2024-01-18",
+    "specifications": {
+      "display": {"type": "AMOLED", "size_inches": 6.78, "resolution": "2400 x 1080", "refresh_rate_hz": 165},
+      "processor": {"name": "Snapdragon 8 Gen 3", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": [16, 24], "storage_gb": [512, 1024]},
+      "camera_rear_mp": [50, 13, 5],
+      "camera_front_mp": 32,
+      "battery_mah": 5500,
+      "os": "Android 14 (ROG UI)",
+      "special_features": ["AirTriggers", "GameCool 8 Cooling System", "RGB Lighting"]
+    },
+    "price_usd_starting": 1199
+  },
+  {
+    "id": "PH007",
+    "brand": "Motorola",
+    "model": "Moto G Power (2024)",
+    "type": "Mid-range / Battery-focused",
+    "release_date": "2024-03-22",
+    "specifications": {
+      "display": {"type": "IPS LCD", "size_inches": 6.7, "resolution": "2400 x 1080", "refresh_rate_hz": 120},
+      "processor": {"name": "MediaTek Dimensity 7020", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": 8, "storage_gb": 128},
+      "camera_rear_mp": [50, 8],
+      "camera_front_mp": 16,
+      "battery_mah": 5000,
+      "os": "Android 14 (Near-stock Android)",
+      "special_features": ["Large Battery", "Stereo Speakers"]
+    },
+    "price_usd_starting": 299
+  },
+  {
+    "id": "PH008",
+    "brand": "Nokia",
+    "model": "G400 5G",
+    "type": "Budget 5G Smartphone",
+    "release_date": "2023-01-18",
+    "specifications": {
+      "display": {"type": "IPS LCD", "size_inches": 6.6, "resolution": "2408 x 1080", "refresh_rate_hz": 120},
+      "processor": {"name": "Snapdragon 695 5G", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": 6, "storage_gb": 128},
+      "camera_rear_mp": [48, 5, 2],
+      "camera_front_mp": 16,
+      "battery_mah": 5000,
+      "os": "Android 12 (Upgradeable to Android 14)",
+      "special_features": ["Affordable 5G", "Long Battery Life"]
+    },
+    "price_usd_starting": 239
+  },
+  {
+    "id": "PH009",
+    "brand": "Sony",
+    "model": "Xperia 1 VI",
+    "type": "Multimedia Pro Smartphone",
+    "release_date": "2024-05-15",
+    "specifications": {
+      "display": {"type": "OLED", "size_inches": 6.5, "resolution": "2520 x 1080", "refresh_rate_hz": 120},
+      "processor": {"name": "Snapdragon 8 Gen 3", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": 12, "storage_gb": [256, 512]},
+      "camera_rear_mp": [48, 12, 12],
+      "camera_front_mp": 12,
+      "battery_mah": 5000,
+      "os": "Android 14 (Xperia UI)",
+      "special_features": ["No Notch/Punch-hole", "3.5mm Headphone Jack", "Pro Camera Apps", "Excellent Media Consumption"]
+    },
+    "price_usd_starting": 1399
+  },
+  {
+    "id": "PH010",
+    "brand": "Fairphone",
+    "model": "Fairphone 5",
+    "type": "Sustainable/Repairable Smartphone",
+    "release_date": "2023-08-30",
+    "specifications": {
+      "display": {"type": "OLED", "size_inches": 6.46, "resolution": "2700 x 1224", "refresh_rate_hz": 90},
+      "processor": {"name": "Qualcomm QCM6490", "cores": "Octa-core"},
+      "memory_storage": {"ram_gb": 8, "storage_gb": 256},
+      "camera_rear_mp": [50, 50],
+      "camera_front_mp": 50,
+      "battery_mah": 4200,
+      "os": "Android 13 (Upgradeable, long-term support)",
+      "special_features": ["User-replaceable Battery", "Modular Design for Repairability", "5-year warranty", "Ethical Sourcing"]
+    },
+    "price_usd_starting": 749
+  }
+]

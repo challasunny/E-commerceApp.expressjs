@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .forgot-container {
+            background: #fff;
+            padding: 2rem 2.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            width: 350px;
+        }
+        .forgot-container h2 {
+            margin-bottom: 1.5rem;
+            color: #333;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.4rem;
+            color: #555;
+            font-size: 0.98rem;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.6rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            background: #f9f9f9;
+        }
+        .form-group input:focus {
+            border-color: #4f8cff;
+            outline: none;
+        }
+        .forgot-btn {
+            width: 100%;
+            padding: 0.7rem;
+            background: #4f8cff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.05rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .forgot-btn:hover {
+            background: #2563eb;
+        }
+    </style>
+    <div class="forgot-container">
+        <h2>Forgot Password</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="otp">OTP</label>
+                <input type="text" id="otp" name="otp" required placeholder="Enter OTP">
+            </div>
+            <div class="form-group">
+                <label for="security-question">Security Question</label>
+                <select id="security-question" name="security-question" required>
+                    <option value="">Select a question</option>
+                    <option value="pet">What is your pet's name?</option>
+                    <option value="school">What is your first school's name?</option>
+                    <option value="city">In which city were you born?</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="security-answer">Answer</label>
+                <input type="text" id="security-answer" name="security-answer" required placeholder="Your answer">
+            </div>
+            <button type="submit" class="forgot-btn">Reset Password</button>
+        </form>
+    </div>
+</body>
+</html>

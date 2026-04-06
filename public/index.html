@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f8f9fa;
+            color: #222;
+        }
+        header {
+            background: #0074d9;
+            color: #fff;
+            padding: 1.5rem 0 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section h2 {
+            margin-bottom: 1.5rem;
+            color: #0074d9;
+        }
+        .products {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #fff;
+            padding: 1rem;
+            width: 200px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        .product-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 4px;
+        }
+        .product-card h3 {
+            margin: 0.5rem 0 0.25rem 0;
+            font-size: 1.1rem;
+        }
+        .product-card p {
+            color: #0074d9;
+            font-weight: bold;
+            margin: 0.25rem 0 0.75rem 0;
+        }
+        .product-card button {
+            background: #0074d9;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+        .product-card button:hover {
+            background: #005fa3;
+        }
+        footer {
+            background: #f1f1f1;
+            text-align: center;
+            padding: 1rem 0;
+            color: #555;
+            margin-top: 2rem;
+        }
+    </style>
+    <header>
+        <h1>Welcome to ShopEase</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="/products.html">Products</a> |
+            <a href="cart.html">Cart</a> |
+            <a href="/contact.html">Contact</a>
+            <a href="/login.html">login</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Products</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Product 1">
+                    <h3>Samsung s23 ultra</h3>
+                    <p>$19.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Product 2">
+                    <h3>apple air buds</h3>
+                    <p>$29.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Product 3">
+                    <h3>selfie stick</h3>
+                    <p>$39.99</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ShopEase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
