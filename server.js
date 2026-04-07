@@ -11,53 +11,34 @@ function authenticate(req,res,next){
 }
 app.use("/phone", authenticate, phoneRouter);
 
-// app.get("/login",function(req,res){
-//     res.sendFile(__dirname + "/public/login.html");
-// })
-// app.get("/register",function(req,res){
-//     res.sendFile(__dirname + "/public/registration.html");
-// })
-// app.get("/forgot-password",function(req,res){
-//     res.sendFile(__dirname + "/public/forgot.html");
-// })
-// app.get("/products",function(req,res){
-//     res.sendFile(__dirname + "/public/products.html");
-// })
-// app.get("/contact",function(req,res){
-//     res.sendFile(__dirname + "/public/contact.html");
-// })
-// app.get("/",function(req,res){
-//     console.log("request recieved");
-//     res.sendFile(__dirname + "/public/home.html");
-//     res.send("kiliki");
-// })
-
-app.get("/index",function(req,res){
-    res.render("index",{propose:"i love you"})
+app.get("/login",function(req,res){
+    res.sendFile(__dirname + "/public/login.html");
 })
-app.get("/addstudent",function(req,res){
-    console.log(req.query);
-    console.log(req.params);
-    //console.log(req.body);
-    res.send("hiiiiii");
+app.get("/register",function(req,res){
+    res.sendFile(__dirname + "/public/registration.html");
 })
-app.get("/sri/23",function(req,res){
-    res.send("parammmm sundari");
+app.get("/forgot-password",function(req,res){
+    res.sendFile(__dirname + "/public/forgot.html");
 })
-app.post("/addstudent",function(req,res){
-    console.log(req.query);
-    console.log(req.params);
-    console.log(req.body);
-    res.send(" hii raaaaaa");
+app.get("/products",function(req,res){
+    res.sendFile(__dirname + "/public/products.html");
 })
-// app.get("/:x",function(req,res){
-//    var idl=phone.find((p)=>{
-//     if(p.brand==req.params.x){
-//         return true;
-//     }
-//    })
-//     res.send(idl);
-// })
+app.get("/contact",function(req,res){
+    res.sendFile(__dirname + "/public/contact.html");
+})
+app.get("/",function(req,res){
+    console.log("request recieved");
+    res.sendFile(__dirname + "/public/home.html");
+    res.send("kiliki");
+})
+app.get("/:x",function(req,res){
+   var idl=phone.find((p)=>{
+    if(p.brand==req.params.x){
+        return true;
+    }
+   })
+    res.send(idl);
+})
 app.listen(4500,function(){
     console.log("my server is running 4500");
 })
